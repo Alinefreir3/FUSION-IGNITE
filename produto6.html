@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="icon" href="ICO.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V 60</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            width: 100%;
+            text-align: center;
+        }
+
+        .header img {
+            width: 100%;
+            display: block;
+        }
+
+        .content {
+            display: flex;
+            width: 100%;
+            margin: 0; /* Remova o espaçamento padrão */
+            padding: 0; /* Remova o espaçamento padrão */
+        }
+
+        .image-container,
+        .details-container {
+            width: 50%;
+            padding: 0; /* Remova o espaçamento interno */
+            margin: 0; /* Remova o espaçamento externo */
+        }
+
+        .image-container img {
+            width: 100%;
+            display: block;
+        }
+
+        .details-container {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .details-container h1 {
+            margin-top: 0;
+            font-size: 20px;
+        }
+
+        .separator {
+            border-top: 1px solid white;
+            margin: 10px 0;
+        }
+
+        .menu-suspenso {
+            width: 100%;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+            border-radius: 5px;
+            background-repeat: no-repeat, no-repeat;
+            background-position: right 10px center, left 10px center;
+            background-size: 12px, 8px;
+            padding-right: 20px;
+            /* Ajuste o espaço à direita para acomodar a seta */
+        }
+
+        .btn-comprar {
+            font-weight: bolder;
+            font-size: 22px;
+            height: 40px;
+            background-color: #01DC2B;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            margin-top: 10px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer {
+            width: 100%;
+            text-align: center;
+            margin-top: 0px;
+        }
+
+        .footer img {
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <a href="index.html">
+            <img src="cabecalho.png" alt="Cabeçalho">
+        </a>
+    </div>
+
+    <div class="content">
+        <div class="image-container">
+            <img src="produto6.png" alt="Produto 1">
+        </div>
+        <div class="details-container">
+            <div>
+                <h1>3 Ignite V50 (5000 puffs)</h1>
+                <div class="separator"></div>
+                <select class="menu-suspenso">
+                    <option value="opcao1">Aloe Grape</option>
+                    <option value="opcao2">Banana Ice</option>
+                    <option value="opcao3">Blue cotton candy</option>
+                    <option value="opcao1">Blue Raspberry Ice</option>
+                    <option value="opcao2">Blueberry Ice</option>
+                    <option value="opcao3">Green Apple</option>
+                    <option value="opcao1">Icy mint</option>
+                    <option value="opcao2">Peach Raspberry</option>
+                    <option value="opcao3">Strawberry Banana</option>
+                    <option value="opcao1">Strawberry Mango</option>
+                    <option value="opcao2">Watermelon Bubblue Gum</option>
+                    <option value="opcao3">Watermelon Gum</option>
+                </select>
+            </div>
+            <a href="formulario6.html" class="btn-comprar">Comprar Agora</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <img src="rodape2.png" alt="Rodapé">
+    </div>
+
+</body>
+
+</html>
